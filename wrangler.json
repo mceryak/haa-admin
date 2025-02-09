@@ -1,0 +1,18 @@
+{
+  "main": ".open-next/worker.js",
+  "name": "haa-admin",
+  "compatibility_date": "2025-01-23",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "kv_namespaces": [
+    {
+      "binding": "NEXT_CACHE_WORKERS_KV",
+      "id": "893161cbfeb547148ed074ad8b1d7356"
+    }
+  ]
+}
